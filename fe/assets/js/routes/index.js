@@ -46,7 +46,7 @@ window.addEventListener("load", async () => {
                 <div class="costume-content-btn-order-wrapper">
                 ${
                   localStorage.getItem("token")
-                    ? `<a href='https://wa.me/083169693085?text=Halo,%20saya&ingin&memesan&kostum&"${costume.name}".&Kira-kira&berapa&ya&harganya?&Terima&kasih' target="blank" rel="noopener noreferrer">
+                    ? `<a href='https://wa.me/6283169693085?text=Halo,%20saya%20ingin%20memesan%20kostum%20"${costume.name}".%20Kira-kira%20berapa%20ya%20harganya?%20Terima%20kasih' target="blank" rel="noopener noreferrer">
                   <button type="button" aria-label="order" id="costume-content-btn-order" class="costume-content-btn-order">Order</button>
                   </a>`
                     : `<button disabled type="button" aria-label="order" id="costume-content-btn-order" class="costume-content-btn-order">Sign In first</button>`
