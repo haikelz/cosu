@@ -1,0 +1,90 @@
+@import url(./normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+/*
+ * Color scheme based on kanagawa.nvim
+ * @see https://github.com/rebelot/kanagawa.nvim
+*/
+:root {
+  --sumiInk0: #16161d;
+  --sumiInk1: #1f1f28;
+  --sumiInk2: #2a2a37;
+  --sumiInk3: #363646;
+  --sumiInk4: #54546d;
+  --autumnGreen: #76946a;
+  --autumnRed: #c34043;
+  --autumYellow: #dca561;
+  --springBlue: #7fb4ca;
+  --crystalBlue: #7e9cd8;
+  --fujiGray: #727169;
+  --katanaGray: #717c7c;
+  --mercury: #e5e7eb;
+  --lotusGray: #dcd7ba;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+p,
+span {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.025em;
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+/* Font */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Wrapper */
+.main-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-wrapper {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}

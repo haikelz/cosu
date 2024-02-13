@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta property="og:title" content="Cosu" />
+  <meta property="og:site_name" content="Cosu" />
+  <meta property="og:url" content="https://cosu-6qh.pages.dev" />
+  <meta property="og:description" content="Kamu lagi bingung cari kostum rental? Yuk rental di Cosu!" />
+  <meta property="og:type" content="website">
+  <meta property=" og:image" content="./assets/static/opengraph.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosu</title>
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="shortcut icon" href="./assets/static/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav">
+      <a href="#" class="nav-home-link">
+        <img loading="eager" src="./assets/static/logo.svg" alt="nav logo" class="nav-logo">
+        <p>Cosu</p>
+      </a>
+      <div class="nav-navigation">
+        <ul class="nav-links-list">
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#costumes-list">Costumes</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
+          <li class="nav-link"><a id="sign-in" href="/sign-in">Sign In</a></li>
+        </ul>
+        <button type="button" aria-label="open nav" id="open-nav-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-menu">
+            <line x1="4" x2="20" y1="12" y2="12" />
+            <line x1="4" x2="20" y1="6" y2="6" />
+            <line x1="4" x2="20" y1="18" y2="18" />
+          </svg>
+        </button>
+        <button id="switch-theme-btn" type="button" aria-label="switch theme"><img id="switch-theme-icon"
+            src="./assets/static/moon.svg" alt="switch theme icon"></button>
+      </div>
+    </nav>
+    <ul id="nav-menu-mobile-lists">
+      <li class="nav-link-mobile"><a href="#about">About</a></li>
+      <li class="nav-link-mobile"><a href="#costumes-list">Costumes</a></li>
+      <li class="nav-link-mobile"><a href="#contact">Contact</a></li>
+      <li class="nav-link-mobile"><a id="sign-in" href="/sign-in">Sign In</a></li>
+    </ul>
+  </header>
+  <main class="main-wrapper">
+    <section class="section-wrapper">
+      <div class="banner">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="banner-img-wrapper">
+          <img loading="eager" class="banner-img" src="./assets/static/banner.png" alt="cosplayer" />
+        </div>
+        <div class="banner-content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h1 class="banner-content-title">Bingung cari <span class="banner-content-title-highlight">rental
+              kostum?</span></h1>
+          <div class="banner-content-description">
+            <p>Cosu siap memenuhi kebetuhan rental kostum untuk cosplay kamu 😄</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section-wrapper">
+      <div class="about">
+        <h1 class="about-title" data-aos-offset="100" data-aos="fade-down" data-aos-easing="ease-in-sine">Kami
+          <span class="about-title-highlight">
+            MENGERTI!
+          </span>
+        </h1>
+        <p class="about-description" data-aos-offset="100" data-aos="fade-up" data-aos-easing="ease-in-sine">Bahwa
+          semakin banyak event yang diadakan, maka makin banyak juga kebutuhan untuk
+          rental kostum
+          cosplay. Dan kami juga mengerti bahwa masih sedikit rental kostum yang ada di Pangkalpinang. Maka dari itu,
+          kami hadir menawarkan solusi rental kostum terlengkap yang ada di Pangkalpinang,
+          bahkan Bangka Belitung 😱. Untuk melihat daftar kostum yang tersedia, silahkan lihat di bagian <a
+            href="#costumes-list" class="about-link-to-costumes-list">Costumes List :)</a></p>
+      </div>
+    </section>
+    <section class="section-wrapper">
+      <div>
+        <h1 class="costumes-list-title-highlight" data-aos-offset="100" data-aos="fade-right"
+          data-aos-easing="ease-in-sine">
+          Costumes List
+        </h1>
+        <div data-aos-offset="100" data-aos="fade-up" data-aos-easing="ease-in-sine" id="costumes-list"
+          class="costumes-list"></div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="footer-content">
+      <div>
+        <div class="footer-description">
+          <a href="#" class="footer-home-link">
+            <img loading="lazy" class="footer-logo" src="./assets/static/logo.svg" alt="logo">
+            <p>Cosu</p>
+          </a>
+          <div class="footer-description-information">
+            <p>Kamu lagi bingung cari kostum rental? Yuk rental di Cosu!</p>
+            <p>Cosu siap memenuhi kebetuhan rental kostum untuk cosplay kamu 😄</p>
+          </div>
+        </div>
+        <div id="contact">
+          <ul class="footer-contacts-list">
+            <li><a href="https://instagram.com" rel="noopener noreferrer" target="_blank"><i
+                  data-lucide="instagram"></i></a></li>
+            <li><a href="https://facebook.com" rel="noopener noreferrer" target="_blank"><i
+                  data-lucide="facebook"></i></a></li>
+            <li><a href="https:/twitter.com" rel="noopener noreferrer" target="_blank"><i data-lucide="twitter"></i></a>
+            </li>
+            <li><a href="https://web.whatsapp.com" rel="noopener noreferrer" target="_blank"><i
+                  data-lucide="phone"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-navigation">
+        <p class="footer-navigation-title">Navigation</p>
+        <ul class="footer-navigation-list">
+          <li class="footer-navigation-link"><a href="#about">About</a></li>
+          <li class="footer-navigation-link"><a href="#costumes-list">Costumes</a></li>
+          <li class="footer-navigation-link"><a href="#contact">Contact</a></li>
+          <li class="footer-navigation-link"><a id="footer-sign-in" href="/sign-in">Sign In</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <button type="button" aria-label="back to top button" id="back-to-top-btn"
+    onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    <img src="./assets/static/arrow-up.svg" alt="arrow up" />
+  </button>
+  <script type="module" src="./assets/js/routes/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    AOS.init({ once: true });
+    lucide.createIcons();
+  </script>
+</body>
+
+</html>

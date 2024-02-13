@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta property="og:title" content="Sign Up to Cosu" />
+  <meta property="og:site_name" content="Sign Up to Cosu" />
+  <meta property="og:url" content="https://cosu-6qh.pages.dev/sign-up" />
+  <meta property="og:description" content="Sign Up to Cosu" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../assets/static/opengraph.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up to Cosu</title>
+  <link rel="shortcut icon" href="../assets/static/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../assets/css/sign-up.css" />
+</head>
+
+<body>
+  <main class="main-wrapper">
+    <section class="section-wrapper">
+      <div class="content">
+        <h1 class="">Sign Up</h1>
+        <form id="sign-up-form">
+          <div class="input-wrapper">
+            <input id="username-input" placeholder="Username...." type="text" name="username" required>
+            <div class="password-input-wrapper">
+              <input id="password-input" placeholder="Password...." type="password" name="password" required>
+              <button type="button" aria-label="show password" id="show-password-btn"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-eye">
+                  <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg></button>
+            </div>
+          </div>
+          <button type="submit" class="submit-btn">Submit!</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="../assets/js/routes/sign-up.js"></script>
+</body>
+
+</html>

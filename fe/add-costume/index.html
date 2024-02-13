@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta property="og:title" content="Add Costume" />
+  <meta property="og:site_name" content="Add Costume" />
+  <meta property="og:url" content="https://cosu-6qh.pages.dev/add-costume" />
+  <meta property="og:description" content="Add Costume" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../assets/static/opengraph.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Costume</title>
+  <link rel="shortcut icon" href="../assets/static/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../assets/css/add-costume.css" />
+</head>
+
+<body>
+  <main class="main-wrapper">
+    <section class="section-wrapper">
+      <div class="content">
+        <h1 class="add-costume-title">Add Costume</h1>
+        <form id="add-costume-form">
+          <div class="input-wrapper">
+            <input id="name-input" type="text" name="name" placeholder="Nama...." required>
+            <input id="size-input" type="text" name="size" placeholder="Size(M/L/XL)" required>
+            <input id="price-input" type="number" name="price" placeholder="Price...." required>
+            <input id="image-input" type="file" accept="image/png, image/gif, image/jpeg" name="image"
+              placeholder="Image...." required>
+          </div>
+          <button type="submit" aria-label="submit" class="submit-btn">Tambahkan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="../assets/js/routes/add-costume.js"></script>
+</body>
+
+</html>
